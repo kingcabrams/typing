@@ -9,3 +9,7 @@ edition = "2021"
 crossterm = "0.27.0"
 rand = "0.8.5"
 ratatui = "0.26.2"
+tokio = "1.37.0"
+
+[build]
+target = "aarch64-apple-darwin"
